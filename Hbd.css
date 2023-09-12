@@ -1,0 +1,221 @@
+*{
+    cursor: default;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Unicorn1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    border-style: solid;
+    border-color: rgb(255, 1, 170);
+    margin-right: 24%;
+    color: rgb(255, 102, 235);
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h1:hover{
+    font-size: 0;
+    background-color: rgba(255, 102, 235, 0.37);
+    margin-right: 20%;
+}
+h1:hover:before{
+    font-size: 50px;
+    content: attr(data-hover);
+}
+h2{
+    border-style: solid;
+    border-color: rgb(255, 1, 170);
+    margin-right: 24%;
+    color: rgb(255, 102, 235);
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h2:hover{
+    font-size: 50px;
+    background-color: rgba(255, 102, 235, 0.37);
+    margin-right: 20%;
+}
+#secbt{
+    font-size: 14px;
+    border-style: solid;
+    border-color: rgb(255, 1, 170);
+    border-radius: 8px;
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+}
+#bt2{
+    font-size: 14px;
+    border-style: solid;
+    border-color: rgb(255, 1, 170);
+    border-radius: 8px;
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    float: left;
+}
+#bt2:active{
+    transform: translateX(8px)
+}
+#secbt:hover{
+    font-size: 0;
+}
+#secbt:hover:before{
+    font-size: 18px;
+    content: attr(data-hover);
+    background-color: rgba(255, 102, 235, 0.842);
+    transition: 0.5s ease;
+}
+#p1{
+    font-size: 20px;
+}
+#p2{
+    font-size: 20px;
+}
+#p3{
+    font-size: 20px;
+    border-style: solid;
+    margin-right: 24%;
+    border-color: rgb(255, 1, 170);
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#txt1{
+    border-style: solid;
+    margin-right: 24%;
+    border-color: rgb(255, 1, 170);
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+}
+#txt2{
+    border-style: solid;
+    margin-right: 24%;
+    border-color: rgb(255, 1, 170);
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+}
+#p1:hover{
+    font-size: 22px;
+    background-color: rgba(255, 102, 235, 0.842);
+    transition: 0.5s ease;
+}
+#p2:hover{
+    font-size: 22px;
+    background-color: rgba(255, 102, 235, 0.842);
+    transition: 0.5s ease;
+}
+#p3:hover{
+    font-size: 0;
+}
+#p3:hover:before{
+    font-size: 25px;
+    content: attr(data-hover);
+    background-color: rgba(255, 102, 235, 0.842);
+    transition: 0.5s ease;
+}
+#sf{
+    font-size: 16px;
+}
+iframe{
+    width: 76%;
+    height: 600px;
+    border-style: solid;
+    margin-right: 24%;
+    border-color: rgb(255, 1, 170);
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+}
+.imagesofus{
+    width: 100%;
+}
+#ImgUs{
+    width: 10%;
+    border-style: double;
+    border-color: rgba(255, 102, 235, 0.842);
+    border-width: 5px;
+    display: inline-block;
+}
+#ImgUs:hover{
+    transition: 0.3s;
+    width: 10.1%;
+}
+/*Chapter 2*/
+#chapter2{
+    visibility: hidden;
+    display: flex;
+    background-color: rgba(133, 25, 119, 0.474);
+    font-size: 450px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    color: rgb(133, 25, 118);
+}
+#take-me{
+    color: rgb(133, 25, 118);
+    border-style: solid;
+    border-color: rgba(255, 102, 235, 0.842);
+    background-color: rgba(255, 102, 235);
+    font-size: 18px;
+}
+#newp1{
+    border-style: double;
+    border-color: rgb(255, 0, 208);
+    background-color: rgba(255, 77, 222, 0.733);
+    padding: 5px;
+    color: rgb(106, 21, 95);
+    font-size: 18px;
+}
+#oldTxt{
+    width: 45%;
+    border-style: solid;
+    border-color: red;
+    margin: 5px;
+}
+#hbd-gif{
+    width: 30%;
+    border-style: solid;
+    margin: 5px;
+    border-color: rgb(106, 21, 95);
+}
+#header-title{
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-color: rgb(255, 0, 208);
+    background-color: rgba(255, 77, 222, 0.733);
+    color: rgb(106, 21, 95);
+    margin: 0;
+}
+#seeOld{
+    position: absolute;
+    font-size: 14px;
+    border-style: solid;
+    border-color: rgb(255, 1, 170);
+    border-radius: 8px;
+    color: rgb(133, 25, 118);
+    background-color: rgba(255, 102, 235, 0.616);
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#someNewStuff{
+    border-style: solid;
+    border-color: red;
+    margin-bottom: 5px;
+    padding: 5px;
+}
