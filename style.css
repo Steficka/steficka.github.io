@@ -190,3 +190,99 @@
 .display img:active .display {
     height: 80vh;
 }
+
+/*responsive*/
+@media (max-width: 500px) {
+    .main-body .container {
+        padding: 2rem 2rem;
+    }
+
+    .index-body {
+        overflow-y: scroll;
+    }
+
+    .select {
+        height: 110vh;
+    }
+
+    .select .block .container {
+        width: 90%;
+    }
+
+    .select .main-h1 {
+        font-size: 10vh;
+        padding: 1rem;
+    }
+
+    .select .block h1 {
+        font-size: 8vh;
+    }
+    
+    .select .block span {
+        font-size: 4vh;
+    }
+
+    .main-body {
+        background-image: url(img/unicorn-resp.jpg);
+    }
+
+    .main-body #main-h1 {
+        font-size: 7vh;
+        padding: 2rem 0;
+    }
+
+    .h1-wrapper {
+        gap: 2rem;
+    }
+
+    .h1-wrapper img {
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+
+    
+    .main-body p {
+        font-size: 2.5vh;
+        padding: 0;
+        text-align: center;
+    }
+
+    .gallery-wrapper {
+        margin-top: 10vh;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 24vw);
+        grid-gap: 15px;
+    }
+
+    .display {
+        padding: 1rem;
+        margin: 1rem 0;
+        margin-top: 5vh;
+    }
+
+    .display img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 380px) {
+    .h1-wrapper {
+        gap: 1rem;
+    }
+
+    .h1-wrapper img {
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+
+    .gallery {
+        grid-gap: 8px;
+    }
+}
